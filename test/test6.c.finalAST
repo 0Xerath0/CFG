@@ -1,0 +1,78 @@
+@1 integer_cst  low:32
+@2 integer_cst  low:8
+@3 translation_unit_decl
+@4 integer_cst  low:0
+@5 integer_cst  low:1
+@6 function_decl name:@7  scpe:@3  link:extern body:@8
+@7 identifier_node strg:main 
+@8 bind_expr type:@29 vars:@9 body:@10
+@9 var_decl name:@11  scpe:@6  chain:@12 size:@1  used:1
+@10 statement_list 0:@13 1:@14 2:@15 3:@16 4:@17 5:@18 6:@19 7:@20 8:@21 9:@22 10:@23 11:@24 12:@25
+@11 identifier_node strg:i 
+@12 var_decl name:@26  scpe:@6  size:@1  used:1
+@13 decl_expr type:@29
+@14 decl_expr type:@29
+@15 modify_expr  op0:@9 op1:@27
+@16 goto_expr type:@29 labl:@28
+@17 label_expr type:@29 name:@29
+@18 modify_expr  op0:@9 op1:@30
+@19 modify_expr  op0:@12 op1:@31
+@20 label_expr type:@29 name:@28
+@21 cond_expr type:@29 op0:@32 op1:@33 op2:@34
+@22 label_expr type:@29 name:@35
+@23 cond_expr type:@29 op0:@36 op1:@37 op2:@38
+@24 modify_expr  op0:@12 op1:@39
+@25 return_expr type:@29 expr:@40
+@26 identifier_node strg:j 
+@27 integer_cst  low:20
+@28 label_decl type:@29 scpe:@6 note:artificial
+@29 label_decl type:@29 scpe:@6 note:artificial
+@30 plus_expr  op0:@9 op1:@41
+@31 integer_cst  low:10
+@32 gt_expr  op0:@9 op1:@31
+@33 goto_expr type:@29 labl:@29
+@34 goto_expr type:@29 labl:@35
+@35 label_decl type:@29 scpe:@6 note:artificial
+@36 gt_expr  op0:@9 op1:@4
+@37 statement_list 0:@42 1:@43
+@38 bind_expr type:@29 vars:@44 body:@45
+@39 plus_expr  op0:@12 op1:@46
+@40 modify_expr  op0:@47 op1:@12
+@41 integer_cst  high:-1 low:-2
+@42 modify_expr  op0:@9 op1:@48
+@43 modify_expr  op0:@12 op1:@49
+@44 var_decl name:@50  scpe:@6  size:@1  used:1
+@45 statement_list 0:@51 1:@52 2:@53 3:@54
+@46 integer_cst  low:200
+@47 result_decl  scpe:@6  note:artificial size:@1 
+@48 plus_expr  op0:@9 op1:@31
+@49 mult_expr  op0:@9 op1:@31
+@50 identifier_node strg:x 
+@51 decl_expr type:@29
+@52 modify_expr  op0:@44 op1:@55
+@53 modify_expr  op0:@9 op1:@56
+@54 cond_expr type:@29 op0:@57 op1:@58 op2:@59
+@55 plus_expr  op0:@12 op1:@31
+@56 plus_expr  op0:@9 op1:@60
+@57 gt_expr  op0:@12 op1:@61
+@58 statement_list 0:@62 1:@63 2:@64
+@59 bind_expr type:@29 vars:@65 body:@66
+@60 integer_cst  high:-1 low:-20
+@61 integer_cst  low:100
+@62 modify_expr  op0:@12 op1:@67
+@63 postincrement_expr  op0:@9 op1:@5
+@64 cond_expr type:@29 op0:@68 op1:@69 op2:@70
+@65 var_decl name:@71  scpe:@6  size:@1  used:0
+@66 statement_list 0:@72 1:@73
+@67 plus_expr  op0:@12 op1:@74
+@68 gt_expr  op0:@12 op1:@75
+@69 modify_expr  op0:@9 op1:@12
+@70 modify_expr  op0:@12 op1:@76
+@71 identifier_node strg:y 
+@72 decl_expr type:@29
+@73 modify_expr  op0:@44 op1:@77
+@74 integer_cst  high:-1 low:-50
+@75 integer_cst  low:80
+@76 plus_expr  op0:@12 op1:@78
+@77 plus_expr  op0:@9 op1:@31
+@78 integer_cst  high:-1 low:-30

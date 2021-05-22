@@ -1,0 +1,65 @@
+@1 integer_cst  low:32
+@2 integer_cst  low:8
+@3 translation_unit_decl
+@4 integer_cst  low:1
+@5 integer_cst  low:3
+@6 function_decl name:@7  scpe:@3  link:extern body:@8
+@7 identifier_node strg:main 
+@8 bind_expr type:@29 vars:@9 body:@10
+@9 var_decl name:@11  scpe:@6  chain:@12 size:@1  used:1
+@10 statement_list 0:@13 1:@14 2:@15 3:@16 4:@17 5:@18 6:@19 7:@20 8:@21 9:@22 10:@23 11:@24 12:@25 13:@26 14:@27
+@11 identifier_node strg:i 
+@12 var_decl name:@28  scpe:@6  size:@1  used:1
+@13 decl_expr type:@29
+@14 decl_expr type:@29
+@15 modify_expr  op0:@9 op1:@29
+@16 modify_expr  op0:@12 op1:@5
+@17 goto_expr type:@29 labl:@30
+@18 label_expr type:@29 name:@31
+@19 modify_expr  op0:@12 op1:@32
+@20 modify_expr  op0:@12 op1:@33
+@21 modify_expr  op0:@9 op1:@34
+@22 label_expr type:@29 name:@30
+@23 cond_expr type:@29 op0:@35 op1:@36 op2:@37
+@24 label_expr type:@29 name:@38
+@25 cond_expr type:@29 op0:@39 op1:@40 op2:@41
+@26 modify_expr  op0:@12 op1:@42
+@27 return_expr type:@29 expr:@43
+@28 identifier_node strg:j 
+@29 integer_cst  low:10
+@30 label_decl type:@29 scpe:@6 note:artificial
+@31 label_decl type:@29 scpe:@6 note:artificial
+@32 plus_expr  op0:@9 op1:@12
+@33 plus_expr  op0:@12 op1:@29
+@34 minus_expr  op0:@9 op1:@12
+@35 le_expr  op0:@12 op1:@44
+@36 goto_expr type:@29 labl:@31
+@37 goto_expr type:@29 labl:@38
+@38 label_decl type:@29 scpe:@6 note:artificial
+@39 gt_expr  op0:@9 op1:@45
+@40 statement_list 0:@46 1:@47
+@41 bind_expr type:@29 vars:@48 body:@49
+@42 plus_expr  op0:@12 op1:@50
+@43 modify_expr  op0:@51 op1:@12
+@44 integer_cst  low:499
+@45 integer_cst  low:13
+@46 modify_expr  op0:@9 op1:@52
+@47 modify_expr  op0:@12 op1:@53
+@48 var_decl name:@54  scpe:@6  chain:@55 size:@1  used:1
+@49 statement_list 0:@56 1:@57 2:@58 3:@59
+@50 integer_cst  low:200
+@51 result_decl  scpe:@6  note:artificial size:@1 
+@52 plus_expr  op0:@9 op1:@60
+@53 plus_expr  op0:@61 op1:@62
+@54 identifier_node strg:x 
+@55 var_decl name:@63  scpe:@6  size:@1  used:0
+@56 modify_expr  op0:@12 op1:@64
+@57 decl_expr type:@29
+@58 decl_expr type:@29
+@59 modify_expr  op0:@48 op1:@4
+@60 integer_cst  low:20
+@61 mult_expr  op0:@9 op1:@65
+@62 integer_cst  low:50
+@63 identifier_node strg:y 
+@64 mult_expr  op0:@9 op1:@50
+@65 integer_cst  low:100

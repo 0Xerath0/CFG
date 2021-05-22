@@ -1,0 +1,78 @@
+@5 integer_cst type:@11 low:32
+@12 integer_cst type:@11 low:8
+@155 translation_unit_decl
+@1976 integer_cst type:@3 low:0
+@1995 integer_cst type:@3 low:1
+@3890 function_decl name:@3893 type:@3894 scpe:@155  link:extern body:@3895
+@3893 identifier_node strg:main 
+@3895 bind_expr type:@129 vars:@3898 body:@3899
+@3898 var_decl name:@3902 type:@3 scpe:@3890  chain:@3903 size:@5  used:1
+@3899 statement_list 0:@3904 1:@3905 2:@3906 3:@3907 4:@3908 5:@3909 6:@3910 7:@3911 8:@3912 9:@3913 10:@3914 11:@3915 12:@3916
+@3902 identifier_node strg:i 
+@3903 var_decl name:@3919 type:@3 scpe:@3890  size:@5  used:1
+@3904 decl_expr type:@129
+@3905 decl_expr type:@129
+@3906 modify_expr type:@3 op0:@3898 op1:@3920
+@3907 goto_expr type:@129 labl:@3921
+@3908 label_expr type:@129 name:@3922
+@3909 modify_expr type:@3 op0:@3898 op1:@3923
+@3910 modify_expr type:@3 op0:@3903 op1:@3924
+@3911 label_expr type:@129 name:@3921
+@3912 cond_expr type:@129 op0:@3925 op1:@3926 op2:@3927
+@3913 label_expr type:@129 name:@3928
+@3914 cond_expr type:@129 op0:@3929 op1:@3930 op2:@3931
+@3915 modify_expr type:@3 op0:@3903 op1:@3932
+@3916 return_expr type:@129 expr:@3933
+@3919 identifier_node strg:j 
+@3920 integer_cst type:@3 low:20
+@3921 label_decl type:@129 scpe:@3890 note:artificial
+@3922 label_decl type:@129 scpe:@3890 note:artificial
+@3923 plus_expr type:@3 op0:@3898 op1:@3936
+@3924 integer_cst type:@3 low:10
+@3925 gt_expr type:@3 op0:@3898 op1:@3924
+@3926 goto_expr type:@129 labl:@3922
+@3927 goto_expr type:@129 labl:@3928
+@3928 label_decl type:@129 scpe:@3890 note:artificial
+@3929 gt_expr type:@3 op0:@3898 op1:@1976
+@3930 statement_list 0:@3937 1:@3938
+@3931 bind_expr type:@129 vars:@3939 body:@3940
+@3932 plus_expr type:@3 op0:@3903 op1:@3941
+@3933 modify_expr type:@3 op0:@3942 op1:@3903
+@3936 integer_cst type:@3 high:-1 low:-2
+@3937 modify_expr type:@3 op0:@3898 op1:@3945
+@3938 modify_expr type:@3 op0:@3903 op1:@3946
+@3939 var_decl name:@3947 type:@3 scpe:@3890  size:@5  used:1
+@3940 statement_list 0:@3948 1:@3949 2:@3950 3:@3951
+@3941 integer_cst type:@3 low:200
+@3942 result_decl type:@3 scpe:@3890  note:artificial size:@5 
+@3945 plus_expr type:@3 op0:@3898 op1:@3924
+@3946 mult_expr type:@3 op0:@3898 op1:@3924
+@3947 identifier_node strg:x 
+@3948 decl_expr type:@129
+@3949 modify_expr type:@3 op0:@3939 op1:@3954
+@3950 modify_expr type:@3 op0:@3898 op1:@3955
+@3951 cond_expr type:@129 op0:@3956 op1:@3957 op2:@3958
+@3954 plus_expr type:@3 op0:@3903 op1:@3924
+@3955 plus_expr type:@3 op0:@3898 op1:@3961
+@3956 gt_expr type:@3 op0:@3903 op1:@3962
+@3957 statement_list 0:@3963 1:@3964 2:@3965
+@3958 bind_expr type:@129 vars:@3966 body:@3967
+@3961 integer_cst type:@3 high:-1 low:-20
+@3962 integer_cst type:@3 low:100
+@3963 modify_expr type:@3 op0:@3903 op1:@3970
+@3964 postincrement_expr type:@3 op0:@3898 op1:@1995
+@3965 cond_expr type:@129 op0:@3971 op1:@3972 op2:@3973
+@3966 var_decl name:@3974 type:@3 scpe:@3890  size:@5  used:0
+@3967 statement_list 0:@3975 1:@3976
+@3970 plus_expr type:@3 op0:@3903 op1:@3979
+@3971 gt_expr type:@3 op0:@3903 op1:@3980
+@3972 modify_expr type:@3 op0:@3898 op1:@3903
+@3973 modify_expr type:@3 op0:@3903 op1:@3981
+@3974 identifier_node strg:y 
+@3975 decl_expr type:@129
+@3976 modify_expr type:@3 op0:@3939 op1:@3982
+@3979 integer_cst type:@3 high:-1 low:-50
+@3980 integer_cst type:@3 low:80
+@3981 plus_expr type:@3 op0:@3903 op1:@3985
+@3982 plus_expr type:@3 op0:@3898 op1:@3924
+@3985 integer_cst type:@3 high:-1 low:-30
