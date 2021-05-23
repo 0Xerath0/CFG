@@ -8,4 +8,4 @@
 
 ​		没有后缀的文件均为中间文件，可以忽略。
 示例
-https://github.com/0Xerath0/CFG/blob/main/test/test1.c.png
+[img](https://github.com/0Xerath0/CFG/blob/main/test/test1.c.png)
